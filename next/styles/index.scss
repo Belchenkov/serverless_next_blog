@@ -83,8 +83,8 @@ html, body {
     letter-spacing: .15rem;
     padding-top: 1.5rem !important /* @TODO temp !!!*/;
     padding: .75rem 1.5rem;
-    background-color: hsl(210, 5%, 41%);
-    border-color: hsl(210, 5%, 36%);
+    background-color: #1068b1;
+    border-color: #1068b1;
     box-shadow: 0 5px 0 hsl(210, 5%, 20%);
     bottom: -45px;
     position: absolute;
@@ -95,10 +95,11 @@ html, body {
     transition: transform .2s, -webkit-transform .2s;
 
     &:hover {
-      background-color: hsl(210, 5%, 51%);
-      border-color: hsl(210, 5%, 41%);
+      background-color: #0881e5;
+      border-color: #0881e5;
       -webkit-transform: translateY(.25rem);
       transform: translateY(.25rem);
+      text-decoration: none;
     }
   }
 
