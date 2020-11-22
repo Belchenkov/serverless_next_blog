@@ -8,7 +8,7 @@ import {
     Row
 } from "react-bootstrap";
 
-import Navbar from "../components/Navbar";
+import Navbar from "components/Navbar";
 
 const Home = () => {
     return (
